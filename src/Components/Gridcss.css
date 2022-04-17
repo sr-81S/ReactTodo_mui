@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-grid{
+    display: grid;
+    margin: 15px 30px;
+    /* border: 1px solid black; */
+    grid-template-columns: 550 px;
+    grid-template-rows: 550px;
+    justify-items: center;
+}
+
+.todo-div{
+    margin-top: 10px;
+    border: 1px solid #EEF8FA;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 600px;
+    width: 450px;
+    background-color: #EEF8FA;
+    align-items: center;
+}
+.center-div{
+    display: grid;
+    margin: 10px 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.todo-task{
+    margin-top: 50px;
+    text-transform: uppercase;
+}
