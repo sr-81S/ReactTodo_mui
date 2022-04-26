@@ -73,7 +73,7 @@ const Todolist = () => {
                   val.map((v, ind)=>{
                       return(
                        <div key={ind}>
-                           <h3> {v}  <IconButton sx={{ml:3}} color="primary" aria-label="upload picture" component="span" onClick={()=>todoCls(ind)}><BookmarkAddedIcon/></IconButton> </h3>
+                           <h3><IconButton sx={{ml:3}} color="primary" aria-label="upload picture" component="span" onClick={()=>todoCls(ind)}><BookmarkAddedIcon/></IconButton>  {v}  </h3>
                        </div>
                       )
                   })
